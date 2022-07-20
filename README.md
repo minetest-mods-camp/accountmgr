@@ -4,7 +4,16 @@ Automatically create accounts in bulk, and export a report to .CSV or .HTML. Fro
 
 License: MIT
 
-## Show the GUI
+## Settings
+
+* `accountmgr.allow_user_register`: Default true. If enabled, users can create
+  an account. Setting this to false is desirable when you're using bulk account
+  creation and don't want users to be able to create their own accounts.
+
+
+## Bulk Account Creation
+
+### Show the GUI
 
 Grant yourself the server privilege, and then run the chatcommand:
 
@@ -12,7 +21,7 @@ Grant yourself the server privilege, and then run the chatcommand:
 	/accounts
 
 
-## Importing
+### Importing
 
 You can import users from a .csv file by placing it in the world directory,
 selecting it in the "Import from CSV" list, and clicking import.
@@ -30,7 +39,7 @@ Or you can also include privileges and notes:
 Notes are freeform text, and will appear in the account report
 
 
-## Editing Users
+### Editing Users
 
 When you click "Save" in the Create/Update section, it'll copy the fields into
 the user list. If the user exists, it'll be overridden. Otherwise, a new user
@@ -44,7 +53,7 @@ click save.
 Clicking Delete will delete the user with the given name.
 
 
-## Exporting
+### Exporting
 
 Click "Create Accounts" to create/update the users and generate the reports.
 
