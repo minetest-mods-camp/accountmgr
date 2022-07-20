@@ -254,6 +254,10 @@ end
 
 
 function bulk_dialog.on_submit(player, context, fields)
+	if not minetest.check_player_privs(player, { server = true }) then
+		return
+	end
+
 	context.message = ""
 
 	if fields.import_files then

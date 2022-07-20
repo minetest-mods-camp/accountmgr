@@ -32,8 +32,16 @@ Notes are freeform text, and will appear in the account report
 
 ## Editing Users
 
-Editing users using the GUI isn't yet supported. To update a user,
-you can import again from .CSV
+When you click "Save" in the Create/Update section, it'll copy the fields into
+the user list. If the user exists, it'll be overridden. Otherwise, a new user
+will be created in the list.
+
+You can click a row in the list to copy from the user list to the fields.
+
+To copy a user, you can click it in the user list, change the name, and then
+click save.
+
+Clicking Delete will delete the user with the given name.
 
 
 ## Exporting
