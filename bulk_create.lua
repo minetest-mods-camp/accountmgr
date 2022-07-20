@@ -247,6 +247,7 @@ local function write_reports(player, users, passwords)
 				</body>
 			</html>
 		]]):format(title, title, rows), "\n")
+		file:close()
 	end
 
 	return filename
