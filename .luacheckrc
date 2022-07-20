@@ -8,5 +8,5 @@ globals = {
 read_globals = {
 	"minetest",
 	"vector",
-	table={fields={"copy"}},
+	table={fields={"copy", "insert_all"}},
 }
